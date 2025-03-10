@@ -3,20 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock paper Scissors | game</title>
+    <title>Rock Paper Scissors Game</title>
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container {
+        text-align: center;
+        background: white;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #2c3e50;
+      }
+      .choices {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      .choice {
+        font-size: 3rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+      }
+      .choice:hover {
+        transform: scale(1.1);
+      }
+      #result {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        font-weight: bold;
+        color: #27ae60;
+      }
+      .scores {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <h1>Rock paper scissors game</h1>
-      <button class="choose" onclick="{playGame('Rock')}" id="rock">Rock</button>
-      <button class="choose" onclick="{playGame('Paper')}" id="paper">Paper</button>
-      <button class="choose" onclick="{playGame('Sciossors')}" id="scissors">
-        Scissors
-      </button>
+    <div class="container">
+      <h1>Rock Paper Scissors 🎮</h1>
+      <div class="choices">
+        <button class="choice" onclick="playGame('🪨')">🪨</button>
+        <button class="choice" onclick="playGame('📄')">📄</button>
+        <button class="choice" onclick="playGame('✂️')">✂️</button>
+      </div>
+      <h2 id="result">Choose an option! 👆</h2>
+      <div class="scores">
+        <p>Player: <span id="playerScore">🪨</span></p>
+        <p>Computer: <span id="computerScore">🖥️</span></p>
+      </div>
     </div>
-    <h2 id="result">Choose an option!</h2>
-    <p>Player choose: <span id="playerScore">0</span></p>
-    <p>Computer choose: <span id="computerScore">0</span></p>
 
     <script src="script.js"></script>
   </body>
