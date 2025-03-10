@@ -8,10 +8,16 @@
   <body>
     <div>
       <h1>Rock paper scissors game</h1>
-      <button>Rock</button>
-      <button>Paper</button>
-      <button>Scissors</button>
+      <button class="choose" onclick="{playGame('Rock')}" id="rock">Rock</button>
+      <button class="choose" onclick="{playGame('Paper')}" id="paper">Paper</button>
+      <button class="choose" onclick="{playGame('Sciossors')}" id="scissors">
+        Scissors
+      </button>
     </div>
+    <h2 id="result">Choose an option!</h2>
+    <p>Player choose: <span id="playerScore">0</span></p>
+    <p>Computer choose: <span id="computerScore">0</span></p>
+
     <script src="script.js"></script>
   </body>
 </html>
