@@ -157,8 +157,15 @@
 
 
 // Number 70 is divisible by which numbers till 70? Find out and print those numbers.
-for(let i =0; i<= 70; i++){
-  if(70 % i === 0){
-    console.log(i)
-  }
+// for(let i =0; i<= 70; i++){
+//   if(70 % i === 0){
+//     console.log(i)
+//   }
+// }
+
+// Write a while loop that logs the numbers 1 to 10 in the console.
+let i = 1;
+while( i <=10){
+  console.log(i);
+  i++
 }
