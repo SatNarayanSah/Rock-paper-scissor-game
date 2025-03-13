@@ -207,11 +207,26 @@
 //   i++;
 // } while (i <= 5);
 
-
 // Counting down from 10 to 1. using do..while loop
 
-let i=10;
-do{
-    console.log(i);
-    i--
-}while(i>=1);
+// let i=10;
+// do{
+//     console.log(i);
+//     i--
+// }while(i>=1);
+
+/*
+1
+11
+111
+1111
+11111
+*/
+
+for (let i = 1; i <= 5; i++) {
+  let number = "";
+  for (let j = 1; j <= i; j++) {
+    number += '1';
+  }
+  console.log(number);
+}
