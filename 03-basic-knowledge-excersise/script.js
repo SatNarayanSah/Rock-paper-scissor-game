@@ -148,8 +148,17 @@
 // Print below series:
 // 100 95 90 85 80 ... till 0
 
-for(let i = 100; i>= 0; i-- ){
-  if(i% 5 === 0){
-    console.log(i);
+// for(let i = 100; i>= 0; i-- ){
+//   if(i% 5 === 0){
+//     console.log(i);
+//   }
+// }
+
+
+
+// Number 70 is divisible by which numbers till 70? Find out and print those numbers.
+for(let i =0; i<= 70; i++){
+  if(70 % i === 0){
+    console.log(i)
   }
 }
