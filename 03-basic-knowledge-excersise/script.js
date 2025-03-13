@@ -201,8 +201,17 @@
 // console.log(oddSum);
 
 // write a do..while loop that logs the number 1 to 5 the console
-let i = 1;
-do {
-  console.log(i);
-  i++;
-} while (i <= 5);
+// let i = 1;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 5);
+
+
+// Counting down from 10 to 1. using do..while loop
+
+let i=10;
+do{
+    console.log(i);
+    i--
+}while(i>=1);
