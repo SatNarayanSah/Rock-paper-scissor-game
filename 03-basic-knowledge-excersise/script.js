@@ -69,6 +69,27 @@
 // }
 
 // print 2's table
-for(let i = 1; i<=10; i++ ){
-  console.log(`2 * ${i} = ${2 * i}`);
+// for(let i = 1; i<=10; i++ ){
+//   console.log(`2 * ${i} = ${2 * i}`);
+// }
+
+// Run a loop from 1 to 50
+// From 1 to 10 print "A"
+// From 11 to 20 print "B"
+// From 21 to 30 print "C"
+// From 31 to 40 print "D"
+// From 41 to 50 print "E"
+
+for (let i = 1; i <= 50; i++) {
+  if (i / 10 === 1) {
+    console.log("A");
+  } else if (i / 20 === 1) {
+    console.log("B");
+  } else if (i / 30 === 1) {
+    console.log("C");
+  } else if (i / 40 === 1) {
+    console.log("D");
+  } else if (i / 50 === 1) {
+    console.log("E");
+  }
 }
