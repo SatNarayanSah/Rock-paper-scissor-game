@@ -199,3 +199,10 @@
 //   i++;
 // }
 // console.log(oddSum);
+
+// write a do..while loop that logs the number 1 to 5 the console
+let i = 1;
+do {
+  console.log(i);
+  i++;
+} while (i <= 5);
