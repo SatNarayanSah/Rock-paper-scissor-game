@@ -119,9 +119,27 @@
 
 
 // 3,6,9,12... till number is less than equal to 500
-for (let i = 1; i<=500; i++){
+// for (let i = 1; i<=500; i++){
   
-  if(i % 3 === 0){
-    console.log(i);
-  }
+//   if(i % 3 === 0){
+//     console.log(i);
+//   }
+// }
+
+  /* print 
+120
+221
+322
+423
+524
+625
+726
+827
+928
+1029
+*/
+
+for (let i = 0; i<=9; i++)
+{
+  console.log(`${i + 1}2${i}`);
 }
