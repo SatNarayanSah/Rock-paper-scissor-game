@@ -58,12 +58,17 @@
 
 // Print 1 to 100, but with a specific condition. If a number is divisible by both 3 and 5, it logs "fizzbuzz" to the console instead of the number itself
 
-for(let i = 1; i<=100; i++){
-  if(i % 3 === 0){
-    console.log('fizz');
-  } else if( i% 5 === 0){
-    console.log('buzz');
-  }else{
-    console.log(i);
-  }
+// for(let i = 1; i<=100; i++){
+//   if(i % 3 === 0){
+//     console.log('fizz');
+//   } else if( i% 5 === 0){
+//     console.log('buzz');
+//   }else{
+//     console.log(i);
+//   }
+// }
+
+// print 2's table
+for(let i = 1; i<=10; i++ ){
+  console.log(`2 * ${i} = ${2 * i}`);
 }
