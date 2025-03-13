@@ -80,16 +80,30 @@
 // From 31 to 40 print "D"
 // From 41 to 50 print "E"
 
-for (let i = 1; i <= 50; i++) {
-  if (i / 10 === 1) {
-    console.log("A");
-  } else if (i / 20 === 1) {
-    console.log("B");
-  } else if (i / 30 === 1) {
-    console.log("C");
-  } else if (i / 40 === 1) {
-    console.log("D");
-  } else if (i / 50 === 1) {
-    console.log("E");
-  }
-}
+// for (let i = 1; i <= 50; i++) {
+//   if (i / 10 === 1) {
+//     console.log("A");
+//   } else if (i / 20 === 1) {
+//     console.log("B");
+//   } else if (i / 30 === 1) {
+//     console.log("C");
+//   } else if (i / 40 === 1) {
+//     console.log("D");
+//   } else if (i / 50 === 1) {
+//     console.log("E");
+//   }
+// }
+
+// for (let i = 50; i >= 1; i--) {
+//     if (i / 10 === 1) {
+//       console.log("E");
+//     } else if (i / 20 === 1) {
+//       console.log("D");
+//     } else if (i / 30 === 1) {
+//       console.log("C");
+//     } else if (i / 40 === 1) {
+//       console.log("B");
+//     } else if (i / 50 === 1) {
+//       console.log("A");
+//     }
+//   }
