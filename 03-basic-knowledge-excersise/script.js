@@ -164,8 +164,17 @@
 // }
 
 // Write a while loop that logs the numbers 1 to 10 in the console.
+// let i = 1;
+// while( i <=10){
+//   console.log(i);
+//   i++
+// }
+
+// Calculate sum of all numbers from 1 to 10.
 let i = 1;
-while( i <=10){
-  console.log(i);
+let sum = 0;
+while(i<=10){
+  sum += i;
   i++
 }
+console.log(sum)
