@@ -112,6 +112,16 @@
 // Print below series:
 // 5 25 125.. till number is less than equal to 10000
 
-for(let i = 1; i<= 5; i++){
-  console.log(5** i);
+// for(let i = 1; i<= 5; i++){
+//   console.log(5** i);
+// }
+
+
+
+// 3,6,9,12... till number is less than equal to 500
+for (let i = 1; i<=500; i++){
+  
+  if(i % 3 === 0){
+    console.log(i);
+  }
 }
