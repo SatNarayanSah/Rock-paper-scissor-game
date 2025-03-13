@@ -108,7 +108,6 @@
 //     }
 //   }
 
-
 // Print below series:
 // 5 25 125.. till number is less than equal to 10000
 
@@ -116,17 +115,15 @@
 //   console.log(5** i);
 // }
 
-
-
 // 3,6,9,12... till number is less than equal to 500
 // for (let i = 1; i<=500; i++){
-  
+
 //   if(i % 3 === 0){
 //     console.log(i);
 //   }
 // }
 
-  /* print 
+/* print 
 120
 221
 322
@@ -144,7 +141,6 @@
 //   console.log(`${i + 1}2${i}`);
 // }
 
-
 // Print below series:
 // 100 95 90 85 80 ... till 0
 
@@ -153,8 +149,6 @@
 //     console.log(i);
 //   }
 // }
-
-
 
 // Number 70 is divisible by which numbers till 70? Find out and print those numbers.
 // for(let i =0; i<= 70; i++){
@@ -186,11 +180,22 @@
 //   i--;
 // }
 
-
 // Print 2's table. in while loop
 
-let i=1;
-while(i<=10){
-  console.log(`2 * ${i} = ${2 * i}`);
-  i++;
-}
+// let i=1;
+// while(i<=10){
+//   console.log(`2 * ${i} = ${2 * i}`);
+//   i++;
+// }
+
+// Calculate sum of all odd numbers from 1 to 100.using whilw loop
+
+// let i = 0;
+// let oddSum = 0;
+// while (i <= 100) {
+//   if (i % 2 === 1) {
+//     oddSum += i;
+//   }
+//   i++;
+// }
+// console.log(oddSum);
