@@ -107,3 +107,11 @@
 //       console.log("A");
 //     }
 //   }
+
+
+// Print below series:
+// 5 25 125.. till number is less than equal to 10000
+
+for(let i = 1; i<= 5; i++){
+  console.log(5** i);
+}
