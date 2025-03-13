@@ -139,7 +139,17 @@
 1029
 */
 
-for (let i = 0; i<=9; i++)
-{
-  console.log(`${i + 1}2${i}`);
+// for (let i = 0; i<=9; i++)
+// {
+//   console.log(`${i + 1}2${i}`);
+// }
+
+
+// Print below series:
+// 100 95 90 85 80 ... till 0
+
+for(let i = 100; i>= 0; i-- ){
+  if(i% 5 === 0){
+    console.log(i);
+  }
 }
