@@ -180,8 +180,17 @@
 // console.log(sum)
 
 // Counting down from 10 to 1.
-let i = 10;
-while(i >= 1){
-  console.log(i);
-  i--;
+// let i = 10;
+// while(i >= 1){
+//   console.log(i);
+//   i--;
+// }
+
+
+// Print 2's table. in while loop
+
+let i=1;
+while(i<=10){
+  console.log(`2 * ${i} = ${2 * i}`);
+  i++;
 }
