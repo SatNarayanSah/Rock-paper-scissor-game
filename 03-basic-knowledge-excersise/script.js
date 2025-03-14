@@ -276,11 +276,18 @@ print
 //   number = "\n";
 // }
 
-for (let i = 5; i >= 1; i--) {
-  let number = "";
-  for (let j = i; j >= 1; j--) {
-    number += j;
+// for (let i = 5; i >= 1; i--) {
+//   let number = "";
+//   for (let j = i; j >= 1; j--) {
+//     number += j;
+//   }
+//   console.log(number);
+//   number = "\n";
+// }
+
+for (let i = 1; i <= 3; i++) {
+  for (let j = 1; j <= 2; j++) {
+    console.log("$$");
   }
-  console.log(number);
-  number = "\n";
+  console.log("\n");
 }
