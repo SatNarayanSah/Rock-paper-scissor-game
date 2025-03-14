@@ -258,9 +258,18 @@ print
 //     star= '\n';
 // }
 
-for (let i = 5; i >= 1; i--) {
-  let number = "";
-  for (let j = 1; j <= i; j++) {
+// for (let i = 5; i >= 1; i--) {
+//   let number = "";
+//   for (let j = 1; j <= i; j++) {
+//     number += j;
+//   }
+//   console.log(number);
+//   number = "\n";
+// }
+
+for (let i = 1; i <= 5; i++) {
+  let number = '';
+  for (let j = 5; j >= i; j--) {
     number += j;
   }
   console.log(number);
