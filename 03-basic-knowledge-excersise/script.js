@@ -240,11 +240,26 @@ print
 
 ---
 */
-for (let i = 0; i < 3; i++) {
-    let dash = '';
-    for (let j= 1; j<=3; j++){
-        dash += '-';
+// for (let i = 0; i < 3; i++) {
+//     let dash = '';
+//     for (let j= 1; j<=3; j++){
+//         dash += '-';
+//     }
+//     console.log(dash)
+//     dash = '\n\n';
+// }
+
+
+
+
+for(let i=1; i<=4; i++){
+    let star = '';
+    for (let j=1; j<=3; j++){
+        star += '*';
     }
-    console.log(dash)
-    dash = '\n\n';
+    console.log(star);
+    star= '\n';
 }
+
+
+
