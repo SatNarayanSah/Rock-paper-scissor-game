@@ -223,10 +223,28 @@
 11111
 */
 
-for (let i = 1; i <= 5; i++) {
-  let number = "";
-  for (let j = 1; j <= i; j++) {
-    number += '1';
-  }
-  console.log(number);
+// for (let i = 1; i <= 5; i++) {
+//   let number = "";
+//   for (let j = 1; j <= i; j++) {
+//     number += '1';
+//   }
+//   console.log(number);
+// }
+
+/*
+
+print
+---
+
+---
+
+---
+*/
+for (let i = 0; i < 3; i++) {
+    let dash = '';
+    for (let j= 1; j<=3; j++){
+        dash += '-';
+    }
+    console.log(dash)
+    dash = '\n\n';
 }
