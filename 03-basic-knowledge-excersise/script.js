@@ -249,17 +249,20 @@ print
 //     dash = '\n\n';
 // }
 
+// for(let i=1; i<=4; i++){
+//     let star = '';
+//     for (let j=1; j<=3; j++){
+//         star += '*';
+//     }
+//     console.log(star);
+//     star= '\n';
+// }
 
-
-
-for(let i=1; i<=4; i++){
-    let star = '';
-    for (let j=1; j<=3; j++){
-        star += '*';
-    }
-    console.log(star);
-    star= '\n';
+for (let i = 5; i >= 1; i--) {
+  let number = "";
+  for (let j = 1; j <= i; j++) {
+    number += j;
+  }
+  console.log(number);
+  number = "\n";
 }
-
-
-
