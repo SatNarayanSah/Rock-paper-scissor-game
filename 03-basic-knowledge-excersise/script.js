@@ -310,10 +310,26 @@ print
 
 
 
-for(let i=10; i>=1; i--){
-  let number = '';
-  for(let j= i; j>=1; j--){
-    number += j;
+// for(let i=10; i>=1; i--){
+//   let number = '';
+//   for(let j= i; j>=1; j--){
+//     number += j;
+//   }
+//   console.log(number);
+// }
+
+for(let i=1; i<=5; i++){
+  let star= '';
+  for(let j =1; j<=i; j++ ){
+    star += '*';
   }
-  console.log(number);
+  console.log(star);
+}
+
+for(let i=4; i>=1; i--){
+  let star= '';
+  for(let j =i; j>=1; j-- ){
+    star += '*';
+  }
+  console.log(star);
 }
