@@ -285,9 +285,25 @@ print
 //   number = "\n";
 // }
 
-for (let i = 1; i <= 3; i++) {
-  for (let j = 1; j <= 2; j++) {
-    console.log("$$");
+// for (let i = 1; i <= 3; i++) {
+//   for (let j = 1; j <= 2; j++) {
+//     console.log("$$");
+//   }
+//   console.log("\n");
+// }
+
+for (let i = 5; i >= 1; i--) {
+  let star = '';
+  for (let j = 1; j <= i; j++) {
+    star += '*';
   }
-  console.log("\n");
+  console.log(star);
 }
+for (let i = 1; i <= 5; i++) {
+    let star2 = '';
+    for (let j = 1; j <= i; j++) {
+      star2 += '*';
+    }
+    console.log(star2);
+    star2 = "\n";
+  }
