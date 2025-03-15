@@ -292,18 +292,28 @@ print
 //   console.log("\n");
 // }
 
-for (let i = 5; i >= 1; i--) {
-  let star = '';
-  for (let j = 1; j <= i; j++) {
-    star += '*';
+// for (let i = 5; i >= 1; i--) {
+//   let star = '';
+//   for (let j = 1; j <= i; j++) {
+//     star += '*';
+//   }
+//   console.log(star);
+// }
+// for (let i = 1; i <= 5; i++) {
+//     let star2 = '';
+//     for (let j = 1; j <= i; j++) {
+//       star2 += '*';
+//     }
+//     console.log(star2);
+//     star2 = "\n";
+//   }
+
+
+
+for(let i=10; i>=1; i--){
+  let number = '';
+  for(let j= i; j>=1; j--){
+    number += j;
   }
-  console.log(star);
+  console.log(number);
 }
-for (let i = 1; i <= 5; i++) {
-    let star2 = '';
-    for (let j = 1; j <= i; j++) {
-      star2 += '*';
-    }
-    console.log(star2);
-    star2 = "\n";
-  }
