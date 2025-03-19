@@ -46,6 +46,20 @@
 
 
 // Capitlize first character of the string.
-let str = 'hello world';
-let capitlizeString = str.charAt(0).toUpperCase() + str.slice(1);
-console.log(capitlizeString);
+// let str = 'hello world';
+// let capitlizeString = str.charAt(0).toUpperCase() + str.slice(1);
+// console.log(capitlizeString);
+
+
+// wrrite  a program to make uppercase character to to lowercase and lowercase to uppercase.
+
+let str='JanakPUR';
+let result= '';
+for(let i=0; i<str.length; i++){
+    if(str[i] === str[i].toUpperCase()){
+        result += str[i].toLowerCase();
+    }else{
+        result += str[i].toUpperCase();
+    }
+}
+console.log(result);
