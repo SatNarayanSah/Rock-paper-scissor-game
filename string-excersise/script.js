@@ -58,19 +58,30 @@
 
 // write a program to make camilize strings.
 
-let str = "this is the javaScript";
-let words = str.split(" ");
-let camelizedWords = [];
+// let str = "this is the javaScript";
+// let words = str.split(" ");
+// let camelizedWords = [];
 
-for (let i = 0; i < words.length; i++) {
-  let word = words[i];
-  let camelizedWord =
-    i === 0
-      ? word.toLowerCase() // Keep the first word lowercase
-      : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase(); // Capitalize others
-  camelizedWords.push(camelizedWord);
+// for (let i = 0; i < words.length; i++) {
+//   let word = words[i];
+//   let camelizedWord =
+//     i === 0
+//       ? word.toLowerCase() // Keep the first word lowercase
+//       : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase(); // Capitalize others
+//   camelizedWords.push(camelizedWord);
+// }
+
+// let camelizedStr = camelizedWords.join("");
+
+// console.log(camelizedStr); // "helloWorld"
+
+
+// count the number of space in sentence
+let str = 'this is the learning of javascript'
+let spacess = '';
+for(let i=0; i<str.length-1; i++){
+    if(str[i] === ' '){
+        spacess += str[i];
+    }
 }
-
-let camelizedStr = camelizedWords.join("");
-
-console.log(camelizedStr); // "helloWorld"
+console.log(spacess.length)
