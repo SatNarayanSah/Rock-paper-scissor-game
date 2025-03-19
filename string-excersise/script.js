@@ -25,10 +25,20 @@
 *****94461
 958**944** */
 
-let str = '9581894461';
-let str1 = str.slice(0,5).padEnd(10,'*');
-let str2 = str.slice(5,10).padStart(10,'*');
-const str3 = str.slice(0, 3) + "**" + str.slice(5, 8) + "**";
-console.log(str1);
-console.log(str2);
-console.log(str3);
+// let str = '9581894461';
+// let str1 = str.slice(0,5).padEnd(10,'*');
+// let str2 = str.slice(5,10).padStart(10,'*');
+// const str3 = str.slice(0, 3) + "**" + str.slice(5, 8) + "**";
+// console.log(str1);
+// console.log(str2);
+// console.log(str3);
+
+
+// Write the program to reverce a tring.
+let str = " Nepal";
+let revercedString = '';
+
+for(let i=str.length-1; i>=0; i--){
+    revercedString += str[i];
+}
+console.log(revercedString);
