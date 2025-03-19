@@ -35,10 +35,17 @@
 
 
 // Write the program to reverce a tring.
-let str = " Nepal";
-let revercedString = '';
+// let str = " Nepal";
+// let revercedString = '';
 
-for(let i=str.length-1; i>=0; i--){
-    revercedString += str[i];
-}
-console.log(revercedString);
+// for(let i=str.length-1; i>=0; i--){
+//     revercedString += str[i];
+// }
+// console.log(revercedString);
+
+
+
+// Capitlize first character of the string.
+let str = 'hello world';
+let capitlizeString = str.charAt(0).toUpperCase() + str.slice(1);
+console.log(capitlizeString);
