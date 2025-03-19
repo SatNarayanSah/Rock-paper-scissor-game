@@ -77,11 +77,32 @@
 
 
 // count the number of space in sentence
-let str = 'this is the learning of javascript'
-let spacess = '';
-for(let i=0; i<str.length-1; i++){
-    if(str[i] === ' '){
-        spacess += str[i];
+// let str = 'this is the learning of javascript'
+// let spacess = '';
+// for(let i=0; i<str.length-1; i++){
+//     if(str[i] === ' '){
+//         spacess += str[i];
+//     }
+// }
+// console.log(spacess.length)
+
+/*1111111111
+222222222
+33333333
+4444444
+555555
+66666
+7777
+888
+99
+0*/
+
+for(let i=0
+    ; i<10; i++){
+    let str = '';
+    for(let j=0; j<10-i; j++){
+        str += i;
+        // str += str.repeat(2)
     }
+    console.log(str);
 }
-console.log(spacess.length)
