@@ -97,12 +97,31 @@
 99
 0*/
 
-for(let i=0
-    ; i<10; i++){
-    let str = '';
-    for(let j=0; j<10-i; j++){
-        str += i;
-        // str += str.repeat(2)
-    }
-    console.log(str);
-}
+// for (let i = 1; i <= 10; i++) {
+//     let num = i % 10; // This ensures 10 becomes 0
+//     console.log(num.toString().repeat(11 - i));
+//   }
+  
+
+// "My name is Sat narayan sah", take inpur from user  and print whateven is ther after the word.
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question("Enter a sentence: ", function(input) {
+    rl.question("Enter a word to search for: ", function(word) {
+        let index = input.indexOf(word);
+        let output = "";
+
+        if (index >= 0) {
+            output = input.substring(index + word.length);
+        }
+
+        console.log("Output:", output);
+        rl.close();
+    });
+});
